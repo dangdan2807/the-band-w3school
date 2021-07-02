@@ -124,12 +124,35 @@ body {
 .slider .text-description {
     font-size: 15px;
     margin-top: 25px;
-
 }
 
 /* Content */
-.content {
-    height: 1000px;
+.content .content-section {
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .section-heading {
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.content .section-sub-heading {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 25px;
+    opacity: 0.6;
+}
+
+.content .about-text {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.4;
+    margin-top: 25px;
 }
 
 /* footer */

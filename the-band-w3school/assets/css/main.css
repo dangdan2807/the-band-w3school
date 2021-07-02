@@ -1,0 +1,114 @@
+html, body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    height: 46px;
+    background-color: #000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+/* Nav */
+.nav__list {
+    display: inline-block;
+}
+
+.nav li:hover .subnav__list{
+    display: block;
+}
+
+.nav__item {
+    position: relative;
+    display: inline-block;
+}
+
+.nav__item {
+    position: relative;
+}
+
+.nav__link {
+    color: white;
+    padding: 0 24px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 46px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav__link {
+    text-transform: uppercase;
+}
+
+.nav__item:hover  .nav__link,
+.subnav__item .subnav__link:hover {
+    color: black;
+    background-color: #ccc;
+}
+
+/* Sub Nav */
+.nav .subnav__list {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 160px;
+    list-style: none;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav .subnav__item > .subnav__link:hover {
+    display: inline-block;
+}
+
+.nav .subnav__link {
+    color: #000;
+    display: inline-block;
+    width: 100%;
+    line-height: 38px;
+    padding: 0 12px;
+    text-decoration: none;
+}
+
+.nav-angle-down {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.header .search-btn {
+    float: right;
+    font-weight: 500;
+    padding: 0 21px;
+}
+
+.header .search-btn:hover {
+    cursor: pointer;
+    background-color: #f44336;
+}
+
+.header .search-icon{
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+
+/* Slide */
+.slide {
+    margin-top: 46px;
+}
+
+/* Content */
+.content {
+    height: 1000px;
+}
+
+/* footer */
+/* .footer {
+} */

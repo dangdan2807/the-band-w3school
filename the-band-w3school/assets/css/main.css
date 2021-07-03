@@ -1,6 +1,7 @@
 html,
 body {
     font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Header */

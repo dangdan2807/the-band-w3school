@@ -14,7 +14,6 @@ body {
     left: 0;
     right: 0;
     z-index: 1;
-    overflow: hidden;
 }
 
 /* Nav */
@@ -31,10 +30,6 @@ body {
     display: inline-block;
 }
 
-.nav__item {
-    position: relative;
-}
-
 .nav__link {
     color: white;
     padding: 0 24px;
@@ -43,9 +38,6 @@ body {
     line-height: 46px;
     text-decoration: none;
     display: inline-block;
-}
-
-.nav__link {
     text-transform: uppercase;
 }
 

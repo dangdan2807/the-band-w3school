@@ -1,12 +1,7 @@
 /* Mobile */
 @media screen and (max-width: 740px) {
-    .nav__list,
-    .nav__item {
-        display: block;
-    }
-
-    .nav__item:first-child {
-        display: inline-block;
+    .header {
+        overflow: hidden;
     }
 
     .header .mobile-menu-btn {
@@ -15,5 +10,29 @@
 
     .header .search-btn {
         display: none;
+    }
+
+    .nav .nav__list,
+    .nav .nav__item,
+    .nav .nav__link {
+        display: block;
+    }
+
+    .nav li a {
+        padding: 1px 24px;
+    }
+
+    .nav .nav__item:first-child {
+        display: inline-block;
+    }
+
+    .nav .subnav__list {
+        position: initial;
+        background-color: #333;
+    }
+
+    .nav .subnav__list .subnav__link {
+        color: #fff;
+        padding: 5px 41px;
     }
 }

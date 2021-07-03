@@ -35,22 +35,29 @@ setInterval(changeImages, 3000);
 
 // event onclick mobile menu btn
 var headerElement = document.getElementsByClassName("header")[0];
-var mobileMenu = document.getElementsByClassName('mobile-menu-btn')[0];
+var mobileMenu = document.getElementsByClassName("mobile-menu-btn")[0];
 var headerHeight = headerElement.clientHeight;
 
-mobileMenu.onclick = function() {
+mobileMenu.onclick = function () {
     var isClose = headerElement.clientHeight === headerHeight;
-    if (isClose)
+    if (isClose) {
         headerElement.style.height = "auto";
-    else
-        headerElement.style.height = headerHeight + "px";
+    } else {
+        headerElement.style.height = null;
+    }
 };
 
 // event onclick menu item
-var menuItems = document.querySelectorAll('.nav a[href*="#"].nav__link');
+var menuItems = document.querySelectorAll('.nav a[href*="#"]');
 for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
+    
     menuItem.onclick = function () {
-        headerElement.style.height = headerHeight + "px";
-    }
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav__list');
+        if (isParentMenu) {
+            event.preventDefault();
+        } else {
+            headerElement.style.height = null;
+        }
+    };
 }

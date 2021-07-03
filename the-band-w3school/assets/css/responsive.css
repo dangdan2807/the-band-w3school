@@ -1,6 +1,15 @@
 /* Mobile */
-@media screen and (max-width: 740px){
+@media screen and (max-width: 740px) {
+    .nav__list,
     .nav__item {
+        display: block;
+    }
+
+    .nav__item:first-child {
+        display: inline-block;
+    }
+
+    .header .mobile-menu-btn {
         display: block;
     }
 

@@ -85,6 +85,13 @@ body {
     font-weight: 500;
 }
 
+.header .mobile-menu-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
 .header .mobile-menu-btn,
 .header .search-btn {
     float: right;
@@ -97,11 +104,11 @@ body {
     background-color: #f44336;
 }
 
-.header .mobile-menu-btn:hover{
+.header .mobile-menu-btn:hover {
     background-color: #ccc;
 }
 
-.header .mobile-menu-btn:hover .menu-icon{
+.header .mobile-menu-btn:hover .menu-icon {
     color: #000;
 }
 
@@ -140,7 +147,7 @@ body {
 
 /* Content */
 .content .content-section {
-    width: 800px; 
+    width: 800px;
     max-width: 100%;
     padding: 64px 16px 112px;
     margin-left: auto;

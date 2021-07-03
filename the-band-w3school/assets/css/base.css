@@ -46,6 +46,14 @@
     margin-top: 16px !important;
 }
 
+.pull-right {
+    float: right;
+}
+
+.pull-right::after {
+    clear: both;
+}
+
 .btn {
     color: #fff;
     background-color: #000;
@@ -54,4 +62,10 @@
     display: inline-block;
     margin-top: 16px;
     cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
 }

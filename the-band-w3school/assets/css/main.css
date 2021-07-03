@@ -129,7 +129,7 @@ body {
 /* Content */
 .content .content-section {
     width: 800px;
-    padding: 64px 0;
+    padding: 64px 0 112px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -210,7 +210,6 @@ body {
 
 .places-list {
     margin-top: 32px;
-    margin-bottom: 48px;
 }
 
 .place-img {
@@ -242,12 +241,6 @@ body {
     line-height: 1.4;
 }
 
-
-.place-buy-btn:hover {
-    color: #000;
-    background-color: #ccc;
-}
-
 /* Contact */
 .contact-content {
     margin-top: 48px;
@@ -274,14 +267,36 @@ body {
     border-radius: 1px;
 }
 
-.contact-form .form-submit {
-    float: right;
-}
-
-.contact-form .form-submit::after {
-    clear: both;
+/* Map section */
+.map-section__img {
+    width: 100%;
 }
 
 /* footer */
-/* .footer {
-} */
+.footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+.footer .socials-list {
+    font-size: 24px;
+}
+
+.footer .social-item {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.footer .copyright:hover a,
+.footer .social-item:hover {
+    opacity: 0.4;
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,10 @@
+/* Mobile */
+@media screen and (max-width: 740px){
+    .nav__item {
+        display: block;
+    }
+
+    .header .search-btn {
+        display: none;
+    }
+}

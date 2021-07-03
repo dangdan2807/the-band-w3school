@@ -157,12 +157,6 @@ body {
 
 .content .members-list {
     margin-top: 48px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.content .member-item {
-    text-align: center;
 }
 
 .content .member-name {
@@ -215,15 +209,8 @@ body {
 /* Place */
 
 .places-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 32px -8px 48px;
-}
-
-.place-item {
-    width: 33.33333%;
-    padding: 0 8px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .place-img {
@@ -268,6 +255,9 @@ body {
     color: #000;
     background-color: #ccc;
 }
+
+/* Contact */
+
 
 /* footer */
 /* .footer {

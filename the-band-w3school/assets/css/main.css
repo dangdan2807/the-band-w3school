@@ -129,11 +129,13 @@ body {
 
 /* Content */
 .content .content-section {
-    width: 800px;
-    padding: 64px 0 112px;
+    width: 800px; 
+    max-width: 100%;
+    padding: 64px 16px 112px;
     margin-left: auto;
     margin-right: auto;
 }
+
 .content .section-heading {
     font-weight: 400;
     font-size: 30px;

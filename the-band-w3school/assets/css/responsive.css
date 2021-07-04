@@ -1,5 +1,14 @@
 /* Mobile */
 @media screen and (max-width: 740px) {
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
     .header {
         overflow: hidden;
     }
@@ -36,20 +45,18 @@
         padding: 5px 41px;
     }
 
-    .content .members-list {
+    .content .members-list,
+    .places-list,
+    .contact-content,
+    .s-col {
         flex-direction: column;
     }
 
-    .content .member-item {
-        margin-top: 30px;
-        width: 100%;
+    .contact-form {
+        margin-top: 16px;
     }
 
-    .places-list {
-        flex-direction: column;
-    }
-    
-    .s-col-full {
-        width: 100%;
+    .btn {
+        text-align: center;
     }
 }

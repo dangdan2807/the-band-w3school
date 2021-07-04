@@ -1,10 +1,47 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .nav .subnav__link {
+        padding: 5px 12px;
+    }
+
+    .btn {
+        padding: 15px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 15px;
+    }
+
+    .content-info {
+        line-height: 2;
+    }
+
+    .socials-list {
+        font-size: 48px;
+    }
+
+    .socials-list .social-item {
+        margin: 0 8px;
+    }
+
+    .footer .copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px ) and (max-width: 1023px ){
+    
+}
+
 /* Mobile */
-@media screen and (max-width: 740px) {
+@media (max-width: 740px) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
     }
-    
+
     .s-mt-8 {
         margin-top: 8px !important;
     }
@@ -53,7 +90,7 @@
     }
 
     .contact-form {
-        margin-top: 16px;
+        margin-top: 32px;
     }
 
     .btn {

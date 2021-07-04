@@ -256,11 +256,21 @@ body {
 /* Contact */
 .contact-content {
     margin-top: 48px;
+    align-items: flex-start;
 }
 
 .content-info {
     font-size: 18px;
     line-height: 1.5;
+}
+
+.content-info a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.content-info a:hover {
+    opacity: 1;
 }
 
 .contact-icon {

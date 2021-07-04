@@ -35,4 +35,21 @@
         color: #fff;
         padding: 5px 41px;
     }
+
+    .content .members-list {
+        flex-direction: column;
+    }
+
+    .content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .places-list {
+        flex-direction: column;
+    }
+    
+    .s-col-full {
+        width: 100%;
+    }
 }

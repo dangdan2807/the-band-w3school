@@ -1,17 +1,17 @@
 // change image
 var sliderInfo = [
     {
-        urlImg: "/assets/img/slider1.jpg",
+        urlImg: "./assets/img/slider1.jpg",
         heading: "Los Angeles",
         description: "We had the best time playing at Venice Beach!",
     },
     {
-        urlImg: "/assets/img/slider2.jpg",
+        urlImg: "./assets/img/slider2.jpg",
         heading: "New York",
         description: "The atmosphere in New York is lorem ipsum.",
     },
     {
-        urlImg: "/assets/img/slider3.jpg",
+        urlImg: "./assets/img/slider3.jpg",
         heading: "Chicago",
         description: "Thank you, Chicago - A night we won't forget.",
     },

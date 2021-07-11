@@ -9,6 +9,8 @@
         crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
     <title>Demo Shop</title>
@@ -17,9 +19,9 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
+            <div class="grid wide">
                 <!-- Header Navbar -->
-                <nav class="header__navbar">
+                <nav class="header__navbar hide-on-mobile-tablet">
                     <ul class="header__navbar-list">
                         <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                             Vào cửa hàng trên ứng dụng Shop
@@ -130,7 +132,7 @@
                 <!-- Header with search -->
                 <div class="header-with-search">
                     <!-- Header logo -->
-                    <div class="header__logo">
+                    <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg class="header__logo-img" viewBox="0 0 192 65">
                                 <g fill-rule="evenodd">
@@ -284,7 +286,7 @@
         </header>
 
         <div class="app__container">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row app__content">
                     <div class="grid__column-2">
                         <nav class="category">
@@ -306,7 +308,7 @@
                         </nav>
                     </div>
                     <div class="grid__column-10">
-                        <div class="home-fitter">
+                        <div class="home-fitter hide-on-mobile-tablet">
                             <span class="home-fitter__label">Săp xếp theo</span>
                             <button class="home-fitter__btn btn">Phổ biến</button>
                             <button class="home-fitter__btn btn btn--primary">Mới nhất</button>
@@ -802,7 +804,7 @@
         </div>
 
         <footer class="footer">
-            <div class="grid">
+            <div class="grid wide">
                 <div class="grid__row">
                     <div class="grid__column-2-4">
                         <h3 class="footer-heading">Chăm sóc khách hàng</h3>
@@ -891,7 +893,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <div class="grid">
+                <div class="grid wide">
                     <p class="footer-copy">© 2019 - Bản quyền thuộc về Công ty TNHH Shopee</p>
                 </div>
             </div>

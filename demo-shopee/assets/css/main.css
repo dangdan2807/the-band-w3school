@@ -1,3 +1,7 @@
+.app {
+    overflow: hidden;
+}
+
 .header {
     height: var(--header-height);
     background: linear-gradient(0, #fe6333, #f53e2d);
@@ -1368,11 +1372,12 @@ i.home-product-item__like-icon-fill {
     position: relative;
     font-weight: 600;
     color: var(--white-color);
-    /* top: -10px; */
+    top: -10px;
 }
 
 .home-product__pagination {
     margin: 48px 0 32px 0;
+    padding-left: 0;
 }
 
 /* footer */

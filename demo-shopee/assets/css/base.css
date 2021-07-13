@@ -215,7 +215,7 @@ html {
 }
 
 .pagination-item {
-    margin: 0 16px;
+    margin: 0 12px;
 }
 
 .pagination-item--active .pagination-item__link:hover {

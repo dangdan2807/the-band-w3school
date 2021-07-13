@@ -77,6 +77,17 @@ html {
     }
 }
 
+@keyframes mobileSearchSideIn {
+    from {
+        top: calc(var(--header-height) / 2);
+        opacity: 0;
+    }
+    to {
+        top: var(--header-height);
+        opacity: 1;
+    }
+}
+
 /* Modal */
 .modal {
     position: fixed;

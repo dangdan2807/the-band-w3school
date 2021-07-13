@@ -86,6 +86,7 @@ article img {
 
 .nav__mobile-list {
     margin-top: 24px;
+    list-style: none;
 }
 
 .nav__mobile-link {
